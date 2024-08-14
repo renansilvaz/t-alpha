@@ -60,7 +60,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ productId }) => {
         name="name"
         value={product.name}
         onChange={handleChange}
-        placeholder="Name"
+        placeholder="Produto"
         required
       />
       <label>Descrição</label>
@@ -70,7 +70,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ productId }) => {
         name="description"
         value={product.description}
         onChange={handleChange}
-        placeholder="Description (optional)"
+        placeholder="Descrição (opcional)"
       />
       <label>Preço</label>
       <input

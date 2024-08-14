@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import logoImg from '../../assets/t-alpha.png'
 import { Container } from '../../components/container'
-import { api } from '../../services/app'
+import  api  from '../../services/app'
 import { useNavigate } from 'react-router-dom'
 
 

@@ -1,5 +1,7 @@
-import axios from "axios";
+import axios from 'axios';
 
-export const api = axios.create({
-    baseURL: "http://localhost:3333"
-})
+const api = axios.create({
+  baseURL: 'https://interview.t-alpha.com.br',
+});
+
+export default api;

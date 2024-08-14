@@ -19,7 +19,7 @@ export function Header(){
 
                 <Link 
                 className="bg-blue-300 p-2 rounded-lg font-semibold"
-                to={'/products/list'}>Todos os produtos</Link>
+                to={'/products'}>Todos os produtos</Link>
 
                 {!loadingAuth && signed && (
                 <Link 
